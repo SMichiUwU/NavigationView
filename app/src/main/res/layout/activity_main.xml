@@ -11,14 +11,16 @@
         android:id="@+id/topAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#035F07"
         android:minHeight="?attr/actionBarSize"
-        app:title="App Movil UTEQ"
-        app:menu="@menu/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
-        android:background="@color/black"
-        app:titleTextColor="@color/white"
-        app:navigationIcon="@drawable/icon_home" />
+        app:menu="@menu/menu"
+        app:navigationIcon="@drawable/ic_home"
+        app:title="App Movil UTEQ"
+        app:titleTextColor="@color/white" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_action_button"
@@ -26,10 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:contentDescription="Add"
+        android:onClick="onClickFAB"
+        app:backgroundTint="#036107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/ic_nuevo"
-        android:onClick="onClickFAB"/>
+        app:srcCompat="@drawable/ic_add" />
 
     <TextView
         android:layout_width="wrap_content"

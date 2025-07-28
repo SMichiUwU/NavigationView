@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/mnuNuevo"
-        android:icon="@drawable/ic_nuevo"
+        android:icon="@drawable/ic_add"
         android:orderInCategory="100"
         android:title="Nuevo"
         app:showAsAction="always">
@@ -21,7 +21,7 @@
 
     <item
         android:id="@+id/mnuSetting"
-        android:icon="@drawable/icon_settings"
+        android:icon="@drawable/ic_settings"
         android:orderInCategory="102"
         android:title="Config"
         app:showAsAction="never|withText">
